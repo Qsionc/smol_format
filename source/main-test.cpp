@@ -89,6 +89,14 @@ TEST_F(TestSmolFormatFixture, test_smol_detail_parse_format_takes_no_arguments) 
     ASSERT_EQ(ss.str(), formatted);
 }
 
+TEST_F(TestSmolFormatFixture, test_smol_detail_parse_format_wrong_index) {
+    formatted = "Test string string ";
+    ss << smol::format("Test {1} {3} {3}", 42, "string");
+    ASSERT_EQ(ss.str(), formatted);
+    std::string result = smol::format("{a}, b{}, {4}, {5}", 42, "string", 3.14); // Output to stdout string: "42, bstring, 3.140000, "
+    ASSERT_EQ(result, "42, bstring, 3.140000, ");
+}
+
 int main(int _argc, char** _argv) {
     testing::InitGoogleTest(&_argc, _argv);
     return RUN_ALL_TESTS();
