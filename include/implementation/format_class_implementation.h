@@ -9,8 +9,8 @@
 #ifndef SMOLFORMAT_FORMAT_CLASS_IMPLEMENTATION_H
 #define SMOLFORMAT_FORMAT_CLASS_IMPLEMENTATION_H
 
-#include <format_class.h>
-#include <detail/formatting.h>
+#include "format_class.h"
+#include "detail/formatting.h"
 #include "any_type_const_implementation.h"
 
 namespace smol {
