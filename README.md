@@ -10,7 +10,7 @@ Small header library allowing for type-safe formatting of strings in C-style man
 4. [Example usage](#example-usage)
 5. [Conclusion](#conclusion)
 
-# Motivation
+## Motivation
 
 Personal practice of CMake and C++ project creation, as well as practice of template programming.<br>
 I decided to create this library to help to develop my personal skills.
@@ -20,7 +20,7 @@ smol::format is part of engine logger library, which will come SOON™.
 
 Any additional insight and criticism is appreciated!
 
-# Description
+## Description
 
 smol::format is simple formatting library allowing for string formatting similar to sprintf C function, but is type
 safe, meaning it does not matter what type additional arguments are. All there is needed is proper format string and
@@ -29,7 +29,7 @@ input arguments list.
 Library currently does not support additional information regarding, for example, floating point precision. It puts data
 raw into strings.
 
-# Installation
+## Installation
 
 Download zip or clone repository to chosen folder. There, create build folder and call `cmake` from there.
 
@@ -55,7 +55,7 @@ in `cmake/smol-library.cmake` file
 
 Unit tests are implemented by simple googletest fixture in `source/main.cpp` file.
 
-# Example usage
+## Example usage
 
 To use in your `CMakeLists.txt` use `find package(...)` to find `smormat` library and link it to chosen targets, for example:
 ```cmake
