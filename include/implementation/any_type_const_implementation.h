@@ -9,8 +9,8 @@
 #ifndef SMOLFORMAT_ANY_TYPE_CONST_IMPLEMENTATION_H
 #define SMOLFORMAT_ANY_TYPE_CONST_IMPLEMENTATION_H
 
-#include <any_type_const.h>
-#include <detail/to_string.h>
+#include "any_type_const.h"
+#include "detail/to_string.h"
 
 namespace smol {
     template<class T>

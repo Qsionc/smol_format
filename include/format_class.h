@@ -9,9 +9,8 @@
 #ifndef SMOLFORMAT_FORMAT_CLASS_H
 #define SMOLFORMAT_FORMAT_CLASS_H
 
-#include <detail/to_string.h>
-#include <array>
 #include "any_type_const.h"
+#include <array>
 
 /**
  * @brief small namespace ;)
