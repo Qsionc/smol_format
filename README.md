@@ -5,10 +5,11 @@ Small header library allowing for type-safe formatting of strings in C-style man
 # Table of contents
 
 1. [Motivation](#motivation)
-2. [Description](#description)
-3. [Installation](#installation)
-4. [Example usage](#example-usage)
-5. [Conclusion](#conclusion)
+2. [Platforms](#platforms)
+3. [Description](#description)
+4. [Installation](#installation)
+5. [Example usage](#example-usage)
+6. [Conclusion](#conclusion)
 
 ## Motivation
 
@@ -19,6 +20,10 @@ Library itself, together with my SingletonWrapper is part of project to create s
 smol::format is part of engine logger library, which will come SOON™.
 
 Any additional insight and criticism is appreciated!
+
+## Platforms
+
+Currently, this library only supports Linux. I plan to add support for Windows later, when i finally learn how to use CMake on Windows 😠
 
 ## Description
 
@@ -80,7 +85,7 @@ omitted, by using `smol::format::get() const` member method that returns `std::s
 
 Working example:
 ```c++
-_[#include <iostream>
+#include <iostream>
 #include <format.h>
 
 int main() {
