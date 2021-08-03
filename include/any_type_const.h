@@ -9,6 +9,8 @@
 #ifndef SMOLFORMAT_ANY_TYPE_CONST_H
 #define SMOLFORMAT_ANY_TYPE_CONST_H
 
+#include <string>
+
 /**
  * @brief small namespace ;)
  */
