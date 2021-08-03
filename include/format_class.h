@@ -11,6 +11,7 @@
 
 #include "any_type_const.h"
 #include <array>
+#include <memory>
 
 /**
  * @brief small namespace ;)
