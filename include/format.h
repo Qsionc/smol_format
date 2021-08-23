@@ -10,6 +10,6 @@
 #define SMOLFORMAT_FORMAT_H
 
 #include "format_class.h"
-#include <implementation/format_class_implementation.h>
+#include "implementation/format_class_implementation.h"
 
 #endif //SMOLFORMAT_FORMAT_H
